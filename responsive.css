@@ -1,0 +1,64 @@
+/media query px/
+@media (max-width:1170px) {
+    /general css/
+    .section-subtitle{
+        max-width:60%
+    }
+
+    /02 banner section/
+    .banner_section .carousel-item{
+        height: 90vh;
+    }
+}
+  /media query 991px/
+  @media(max-width:991px){
+    /general css/
+    .about .banner_section,
+.product .banner_section,
+.gallery .banner_section,
+.contact .banner_section,
+.distributors .banner_section{
+    padding-top:12.5rem;
+    padding-bottom: 3rem;
+}
+ /01 navbar css/
+ .header .navbar{
+    background-size: cover;
+    padding:2rem;
+}
+.header .navbar-nav{
+    margin-top: 2rem;
+}
+.header .navbar-nav .nav-link{
+    padding:0.2rem 0.5rem;
+    margin-bottom: 1rem;
+}
+.header .header_right span{
+    padding:0.2rem 0.5rem;
+}
+}
+/media query 767px/
+@media (max-width:767px){
+    /general css/
+    body,html{
+        font-size: 8px;
+    }
+    .section-subtitle{
+        max-width: 80%;
+    }
+    /02 banner section/
+.banner_section{
+    min-height: 70vh;
+}
+.banner_section .carousel-item{
+    height: 70vh;
+}
+}
+/media query 590px/
+@media (max-width:590px){
+    /general css/
+    body,html{
+        font-size: 7px;
+    }
+    
+}
