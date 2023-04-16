@@ -13,10 +13,10 @@
     outline: none;
 }
 :root{
-    /background color/
+    /*background color*/
     --bg-white:#fff;
     --bg-dark-color:#03262c;
-    /text colors/
+    /*text colors*/
     --primary-text:#ffffff;
     --secondary-color:#c89116;
     --light-color:#e2f6de;
@@ -26,7 +26,7 @@
     --anchor-color:#007aff;
 
   
-    /font family/
+    /*font family*/
     --primary-font:'Poppins', sans-serif;
     --secondary-font: 'Mulish', sans-serif;
 }
@@ -284,7 +284,7 @@ section{
 }
 
 
-/02 banner section start/
+/*02 banner section start*/
 .banner_section{
     background: url('car2.jpg');
     background-repeat: no-repeat;
@@ -317,7 +317,7 @@ section{
     font-weight:bold;
     
 }
-/02 banner section end/
+/*02 banner section end*/
 
 
 /* feature section */
@@ -471,7 +471,7 @@ justify-content: center;
 }
 
 /* gallery end */
-/footer section start/
+/*footer section start*/
 .footer_wrapper{
     background: url('images5.png');
     background-size: cover;
@@ -585,7 +585,7 @@ justify-content: center;
     color: black;
 }
 
-/footer section end/
+/*footer section end*/
 
 
 
@@ -635,3 +635,7 @@ justify-content: center;
     background-size: cover;
     min-height: 90vh;
 }
+
+
+  
+
